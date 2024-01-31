@@ -1,0 +1,60 @@
+.busines{
+    margin-top: 50px;
+    width: 100vw;
+    height: 50vh;
+  }
+  .busines1{
+    width: 100vw;
+    height: 50vh;
+  }
+  .form{
+    margin-top: 50px;
+    margin-right: 50vw;
+    /* margin-left: 40vh; */
+  }
+  .name{
+    color: rgb(43, 132, 43);
+    margin-right: 40%;
+    margin-bottom: 0;
+  }
+  .name1{
+    color: rgb(43, 132, 43);
+    margin-right: 43%;
+    margin-top: 0;
+  }
+  .owner{
+    color: rgb(43, 132, 43);
+    margin-right: 70%;
+  }
+  .edit{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .bb{
+ background-color: green;
+  width: 30%;
+  height:3px;
+  margin-left: 25%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  }
+  .logo{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 100px;
+  }
+  p{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 150px;
+  }
+  img{
+    height:150px;
+    border-radius: 80%;
+    /* position: absolute; */
+    /* margin-right: 10px; */
+    
+    /* margin-right: 100%; */
+
+  }

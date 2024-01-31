@@ -1,0 +1,71 @@
+
+.allMeetings{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.meeting{
+    /* border: 2px solid;
+    border-width: 3px;
+    margin: 50px;
+    margin-left: 10%;
+    height: 300px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 0; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.addMeeting{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 50px;
+    background-color:white;
+}
+h6 {
+    margin-top: 0;
+}
+
+h4{
+    margin-bottom: 0;
+}
+.red-background {
+    border: 2px solid;
+    border-width: 3px;
+    margin: 50px;
+    margin-left: 10%;
+    height: 300px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 0;
+    border-color: red;
+
+  }
+  
+  .orange-background {
+    border: 2px solid;
+    border-width: 3px;
+    margin: 50px;
+    margin-left: 10%;
+    height: 300px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 0;
+    border-color: orange;
+  }
+  
+  .green-background {
+    border: 2px solid;
+    border-width: 3px;
+    margin: 50px;
+    margin-left: 10%;
+    height: 300px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 0;
+    border-color: green;
+  }
+ 
