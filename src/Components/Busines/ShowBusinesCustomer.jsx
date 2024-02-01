@@ -2,13 +2,13 @@ import { observer } from "mobx-react";
 import { useEffect } from 'react'
 import BusinesStore from "../../Stores/BusinesStore";
 import './busines.css'
-import { getBusines} from '../../Stores/ServerStore';
+import { getBusines } from '../../Stores/ServerStore';
 
 const ShowBusinesCustomer = (observer(() => {
 
   useEffect(() => {
     getBusines();
-      }, []);
+  }, []);
 
   return (
     <>
@@ -22,9 +22,6 @@ const ShowBusinesCustomer = (observer(() => {
         <h6 className="owner"> {BusinesStore.busines.phone}</h6>
         <div className="bb"></div>
       </div>
-
-
-
     </>
   )
 }))

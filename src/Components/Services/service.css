@@ -27,7 +27,7 @@
 .addService{
     position: absolute;
     margin-left: 30%;
-    margin-top: 7%;
+    margin-top: 0;
     padding: 50px;
     background-color:white;
     }

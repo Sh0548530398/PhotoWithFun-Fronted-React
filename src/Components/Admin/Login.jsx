@@ -11,36 +11,17 @@ function Login({func}) {
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
 
-
-  const handleLogin = async () => {
+   const handleLogin = async () => {
     axios.post('http://localhost:8787/login', {
-      "name":"admin","password":"123456"
+      "name":name,"password":password
     }).then((res) => {
-      console.log(res.status);
       func()
     }).catch((error) => {
-      console.log(error.message);
-      alert("שם משתמש וססמא לא נכונים נסה שנית");
+     alert("נסה שנית")
       setPassword('')
       setName('')
     })
   }
-  
-  //  const handleLogin = async () => {
-  //   axios.post('http://localhost:8787/login', {
-  //     "name":name,"password":password
-  //   }).then((res) => {
-  //     func()
-  //   }).catch((error) => {
-  //    alert("נסה שנית")
-  //     setPassword('')
-  //     setName('')
-  //   })
-  // }
-
- 
-
-  
   return (
     <>
     <h2>הקש שם משתמש וססמא</h2>
@@ -51,9 +32,6 @@ function Login({func}) {
        <br />
        <br/>
        <Button onClick={handleLogin} variant="contained" color="success">log in</Button>
-
-    
-     
     </>
   )
 }

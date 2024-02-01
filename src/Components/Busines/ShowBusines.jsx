@@ -1,15 +1,18 @@
 import { observer } from "mobx-react";
 import { useEffect } from 'react'
-import BusinesStore from "../../Stores/BusinesStore";
 import Fab from '@mui/material/Fab';
 import EditIcon from '@mui/icons-material/Edit';
+import BusinesStore from "../../Stores/BusinesStore";
 import './busines.css'
 import { getBusines, putBusines } from '../../Stores/ServerStore';
+
 const ShowBusines = (observer(({ func }) => {
+    
     useEffect(() => {
         putBusines(BusinesStore.busines);
         getBusines();
-          }, []);
+    }, []);
+
     const handleEdit = () => {
         func();
     }

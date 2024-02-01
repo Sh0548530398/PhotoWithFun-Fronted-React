@@ -2,8 +2,6 @@ import { useState } from 'react'
 import Login from './Login';
 import AdminPage from './AdminPage';
 
-
-
 function Admin() {
 const [isLogin,setIsLogin]=useState(false);
 
